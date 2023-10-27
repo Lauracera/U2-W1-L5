@@ -4,8 +4,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* font-family: 'Spectral', serif; */
-
 hr {
   margin: 0;
 }
@@ -86,6 +84,7 @@ header {
 
 h1 {
   font-size: 106px;
+  font-family: "Spectral", serif;
 }
 
 #hd-section p {
@@ -102,6 +101,12 @@ h1 {
 }
 
 /* MAIN SECTION  */
+
+.img-num {
+  display: flex;
+  align-items: center;
+}
+
 main section {
   padding-left: 110px;
   padding-bottom: 30px;
@@ -195,4 +200,45 @@ article p {
 .article-cont {
   display: flex;
   align-items: center;
+}
+
+article {
+  padding: 110px;
+}
+
+.text {
+  flex-basis: 512px;
+}
+
+/* "FOOTER" */
+
+#ul-footer {
+  flex-wrap: wrap;
+  column-gap: 5px;
+  padding-bottom: 10px;
+}
+
+#ul-footer li button {
+  background-color: white;
+  border-color: rgba(194, 193, 193, 0.527);
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+#div-ul-border {
+  border-bottom: 1px solid rgba(156, 156, 156, 0.199);
+}
+
+#a-div {
+  column-gap: 5px;
+}
+
+#div-footer {
+  width: 368px;
+}
+
+#stick {
+  position: sticky;
+  top: 79px;
+  width: 100%;
 }
