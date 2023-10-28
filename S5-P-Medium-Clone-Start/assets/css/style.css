@@ -201,6 +201,7 @@ article p {
 .big-img {
   width: 200px;
   height: 134px;
+  margin-left: 24px;
 }
 
 .article-lt-img {
@@ -216,11 +217,12 @@ article p {
 
 article {
   padding-left: 110px;
+  padding-right: 110px;
   padding-top: 70px;
 }
 
 .text {
-  flex-basis: 512px;
+  flex-basis: 471px;
 }
 
 /* "FOOTER" */
@@ -228,7 +230,7 @@ article {
 #ul-footer {
   flex-wrap: wrap;
   column-gap: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 #ul-footer li button {
@@ -236,6 +238,7 @@ article {
   border-color: rgba(194, 193, 193, 0.527);
   border-radius: 3px;
   padding: 5px 15px;
+  margin-bottom: 5px;
 }
 
 #div-ul-border {
@@ -246,6 +249,7 @@ article {
   display: flex;
   flex-wrap: wrap;
   column-gap: 5px;
+  margin-top: 25px;
 }
 
 #div-footer {
@@ -262,4 +266,8 @@ article {
 aside {
   display: flex;
   justify-content: end;
+}
+
+#cont-all {
+  display: flex;
 }
