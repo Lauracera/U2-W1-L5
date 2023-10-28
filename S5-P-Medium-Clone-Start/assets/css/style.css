@@ -45,6 +45,10 @@ header {
   transition-duration: 1.5s;
 }
 
+#div-nav.animate {
+  background-color: white;
+}
+
 #list-nav {
   /* display: flex; */
   list-style: none;
@@ -144,6 +148,8 @@ span {
 h3 {
   font-size: 16px;
   font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 11px;
 }
 
 h4 {
@@ -153,6 +159,7 @@ h4 {
 main section img {
   width: 20px;
   height: 20px;
+  margin-right: 7px;
 }
 
 main section p {
@@ -177,14 +184,18 @@ main section p {
 .little-img {
   width: 20px;
   height: 20px;
+  padding-right: 10px;
 }
 
 h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 11px;
+  margin-bottom: 7px;
 }
 article p {
   font-size: 13px;
+  margin-bottom: 14px;
 }
 
 .big-img {
@@ -200,10 +211,12 @@ article p {
 .article-cont {
   display: flex;
   align-items: center;
+  margin-bottom: 39px;
 }
 
 article {
-  padding: 110px;
+  padding-left: 110px;
+  padding-top: 70px;
 }
 
 .text {
@@ -230,15 +243,23 @@ article {
 }
 
 #a-div {
+  display: flex;
+  flex-wrap: wrap;
   column-gap: 5px;
 }
 
 #div-footer {
   width: 368px;
+  flex-basis: 427px;
 }
 
-#stick {
-  position: sticky;
-  top: 79px;
-  width: 100%;
+.pnt-cnt {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 21px;
+}
+
+aside {
+  display: flex;
+  justify-content: end;
 }
